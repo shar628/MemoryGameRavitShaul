@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/gameBoard.css" />
+    <link rel="stylesheet" href="./style/dataWindow.css" />
+  </head>
+  <body>
+    <div class="general-container">
+      <div class="gameboard"></div>
+      <div class="data-window">
+        <!-- timer, score , moves ,wrong moves -->
+        <div class="box" id="timer">
+          <div class="title">Time:</div>
+          <div class="info">0</div>
+        </div>
+        <div class="box" id="moves">
+          <div class="title">Moves:</div>
+          <div class="info">0</div>
+        </div>
+        <div class="box" id="wrong">
+          <div class="title">Wrong moves:</div>
+          <div class="info">0</div>
+        </div>
+        <div class="box" id="score">
+          <div class="title">Score:</div>
+          <div class="info">0</div>
+        </div>
+      </div>
+    </div>
+    <script src="./script/app.js" type="module"></script>
+  </body>
+</html>

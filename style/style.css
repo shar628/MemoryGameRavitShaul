@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  ​
+  html {
+    font-size: 10px;
+  }
+  ​
+  .general-container {
+    /* display: inline-block; */
+    width: 90vw;
+    height: 100vh;
+    border: 1px solid black;
+    margin: auto;
+  }

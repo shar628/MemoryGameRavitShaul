@@ -1,0 +1,20 @@
+.data-window {
+    display: flex;
+    width: 90%;
+    height: 25%;
+    border: 2px solid blue;
+    margin: 2rem auto;
+    justify-content: space-around;
+    align-items: center;
+  }
+  ​
+  .title {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  .info {
+    font-size: 1.5rem;
+    text-align: center;
+    color: gray;
+  }
